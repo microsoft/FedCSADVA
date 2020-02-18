@@ -14,7 +14,7 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: hypernodewebwin    # set this to your application's name
+  AZURE_WEBAPP_NAME: hypernodewebwin    # set this to your application's name change1
   NODE_VERSION: '10.x'                # set this to the node version to use
 
 jobs:
