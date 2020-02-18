@@ -14,7 +14,7 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: fedcsadva    # set this to your application's name
+  AZURE_WEBAPP_NAME: hypernodewebwin    # set this to your application's name
   NODE_VERSION: '10.x'                # set this to the node version to use
 
 jobs:
@@ -38,4 +38,4 @@ jobs:
       uses: azure/webapps-deploy@v1
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_GOV }}
